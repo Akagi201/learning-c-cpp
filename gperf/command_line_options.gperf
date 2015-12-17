@@ -1,0 +1,15 @@
+%{
+#include "command_options.h"
+typedef struct CommandOptionCode CommandOptionCode;
+%}
+struct CommandOption
+  {
+  const char *Option;
+  int OptionCode;
+  };
+%%
++helpverbose, CommandOptionCode::HELPVERBOSE
++password, CommandOptionCode::PASSWORD
++nocopyright, CommandOptionCode::NOCOPYRIGHT
++nolog, CommandOptionCode::NOLOG
++_64bit, CommandOptionCode::_64BIT
