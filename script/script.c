@@ -1,4 +1,4 @@
-//usr/bin/env gcc $0 "$@" && ./a.out; exit
+//usr/bin/env gcc $0 "$@" && ./a.out && rm ./a.out; exit
 #include <stdio.h>
 
 int main() {
