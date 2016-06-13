@@ -31,3 +31,7 @@
 # Debug files
 *.dSYM/
 .idea/
+
+# build
+jsmn/simple/build/
+jsmn/jsondump/build/
