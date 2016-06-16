@@ -1,0 +1,13 @@
+version "0.1.0"
+package "app"
+purpose "Sample application description.
+
+By Akagi201 <akagi201@gmail.com>"
+
+# Options
+option "filename" f "String argument" string required
+option "size" s "Optional argument, takes exactly 3 int values separated by commas" multiple(3) optional int
+option "array" a "Required argument, takes 1 or more args" multiple(1-) required int
+option "long-option" - "Option without short version" optional float
+option "default-value" d "Argument with default value" optional float default="0.003"
+option "console" c "Flag with default 'off'" flag off
