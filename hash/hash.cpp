@@ -11,7 +11,7 @@
  * Set hash `key` to `val`.
  */
 
-inline void hash_set(hash_t *self, char *key, void *val) {
+void hash_set(hash_t *self, char *key, void *val) {
     int ret;
     khiter_t k = kh_put(ptr, self, key, &ret);
     kh_value(self, k) = val;
@@ -21,7 +21,7 @@ inline void hash_set(hash_t *self, char *key, void *val) {
  * Get hash `key`, or NULL.
  */
 
-inline void *hash_get(hash_t *self, char *key) {
+void *hash_get(hash_t *self, char *key) {
     khiter_t k = kh_get(ptr, self, key);
     return k == kh_end(self) ? NULL : kh_value(self, k);
 }
@@ -30,7 +30,7 @@ inline void *hash_get(hash_t *self, char *key) {
  * Check if hash `key` exists.
  */
 
-inline int hash_has(hash_t *self, char *key) {
+int hash_has(hash_t *self, char *key) {
     khiter_t k = kh_get(ptr, self, key);
     return k != kh_end(self);
 }
