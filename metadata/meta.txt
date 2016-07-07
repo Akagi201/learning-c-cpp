@@ -1,0 +1,23 @@
+Object (22 items)
+    Property 'width' Number 640.0
+    Property 'height' Number 360.0
+    Property 'videodatarate' Number 509.6
+    Property 'framerate' Number 24.0
+    Property 'videocodecid' Number 7.0
+    Property 'audiodatarate' Number 91.4
+    Property 'audiosamplerate' Number 44100.0
+    Property 'audiosamplesize' Number 16.0
+    Property 'stereo' Boolean true
+    Property 'audiocodecid' Number 10.0
+    Property 'major_brand' String isom
+    Property 'minor_version' String 1
+    Property 'compatible_brands' String isom
+    Property 'encoder' String Lavf55.19.104
+    Property 'filesize' Number 0.0
+    Property 'server' String UPYUN/4.0.119(BMS)
+    Property 'srs_primary' String UPYUN/3.0release
+    Property 'srs_authors' String Chnvideo
+    Property 'server_version' String 4.0.119
+    Property 'srs_pid' Number 2667347.0
+    Property 'srs_id' Number 217209.0
+    Property 'srs_server_ip' String 183.134.101.203
