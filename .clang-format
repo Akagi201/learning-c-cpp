@@ -1,0 +1,11 @@
+BasedOnStyle: Google
+TabWidth: 4
+IndentWidth: 4
+UseTab: ForIndentation
+SpacesBeforeTrailingComments: 1
+AlignTrailingComments: true
+AllowShortFunctionsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+ColumnLimit: 79
+MaxEmptyLinesToKeep: 2
