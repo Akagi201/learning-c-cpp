@@ -1,21 +1,16 @@
-#include <time.h>
-
 double my_variable = 3.0;
 
+// Compute factorial of n
 int fact(int n) {
-	if (n <= 1) {
-		return 1;
-	} else {
-		return n * fact(n - 1);
-	}
+    if (n <= 1) {
+        return 1;
+    } else {
+        return n * fact(n-1);
+    }
 }
 
-int my_mode(int x, int y) {
-	return (x % y);
+// Compute n mod m
+int my_mod(int n, int m) {
+    return (n % m);
 }
 
-char *get_time() {
-	time_t ltime;
-	time(&ltime);
-	return ctime(&ltime);
-}
