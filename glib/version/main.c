@@ -1,3 +1,10 @@
+/*! \file main.cc
+ *  \author Akagi201
+ *  \brief glib version related functions
+ *
+ *  glib version related functions
+ */
+
 #include <glib.h>
 #include <stdio.h>
 
