@@ -14,14 +14,14 @@ gboolean timeout_callback(gpointer data) {
 }
 
 int main() {
-	GMainLoop *loop;
+	GMainLoop *loop = NULL;
 
   // use default context
 	loop = g_main_loop_new(NULL, FALSE);
 
 	// add source to default context
 	g_timeout_add(1000, timeout_callback, loop);
-	
+
 	g_main_loop_run(loop);
 	g_main_loop_unref(loop);
 
