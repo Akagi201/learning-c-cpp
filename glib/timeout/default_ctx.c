@@ -21,6 +21,7 @@ int main() {
 
 	// add source to default context
 	g_timeout_add(1000, timeout_callback, loop);
+	
 	g_main_loop_run(loop);
 	g_main_loop_unref(loop);
 
