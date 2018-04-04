@@ -38,3 +38,4 @@ jsmn/jsondump/build/
 settings.json
 /.vscode
 _builds/
+build/
