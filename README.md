@@ -1,2 +1,3 @@
-# learning-c
-codes when learning C
+# learning-c-cpp
+
+Codes while learning C and Cpp.
